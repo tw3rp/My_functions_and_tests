@@ -158,6 +158,12 @@ public class functionsTest {
 		assertEquals("           ",reverse);
 	}
 	
+	@Test
+	public final void testReverseString_check_for_palindrome() {
+		String reverse = test.ReverseString("RACECAR");
+		assertEquals("RACECAR",reverse);
+	}
+	
 	
 	
 	
